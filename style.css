@@ -1,0 +1,177 @@
+ body{ 
+	background-color: #FFE8D1;
+	color: black;
+	font-size: 17px;
+	line-height: 25px;
+	font-family: "Helvetica", sans-serif;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+	
+}
+/* #img-circle {
+	
+	border-radius: 50%;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto; */
+}
+ h1{
+ 	color: black;
+ 	font-size: 25vw;
+ 	text-align: center;
+
+ }
+ 
+
+
+.banner {
+            width: 100%;
+            height: 520px; /* Ajustez la hauteur selon vos besoins */
+            background-image: url('images/hec-concert.jpg'); /* Remplacez par le chemin de votre image de bannière */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFE8D1; /* Couleur du texte sur la bannière */
+            text-align: center;
+        }
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.banner h1 {
+            font-size: 8vw; /* Ajustez la taille de la police selon vos besoins */
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateX(50%);
+            
+
+}
+.banner p{
+	color: #BAFF29;
+	bottom: 50px;
+	margin-top: 500px;
+
+
+}
+
+
+h2{
+	color:#7A6263 ;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+
+a { 
+	text-decoration: none;
+	color: #C78CBB;
+	font-size: 20px;
+    transition: color 0.4s ease;
+
+}
+a:hover {
+	color: #FF47DA ;
+	font-size: 24px ;
+	text-decoration: none;
+}
+
+p{
+	color: black;
+	font-size: 18px;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+
+@media ( max-width : 500px) {
+    .container {
+    	width: 480px; 
+    .box-white {
+        width: 400px; 
+   }
+}
+    
+}
+@media ( max-width : 500px) {
+	.last-box {
+		width: 400px ;
+	}
+	}
+
+
+
+.box-white { 
+   
+   border-bottom: 1px solid #BDA59A;
+   box-shadow: 0px 10px 30px #BDA59A;
+   width: 1000px;
+   padding: 30px;
+   margin: 20px auto;
+   align-items: center;
+   text-align: center;
+}
+
+
+
+}
+.box-white i {
+    padding: 15px 20px;
+	width: 100px;
+	font-size: 50px;
+}
+i:hover { 
+	font-size: 40px ;
+
+}
+
+.list-inline {
+	list-style: none;
+    padding: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+.list-inline a{
+	color: #FFE8D1 ;
+}
+.list-inline a:hover {
+    color: #FF47DA ;
+	font-size: 24px ;
+	text-decoration: none;
+
+}
+
+.last-box {
+   border-bottom: 1px solid #BDA59A;
+   box-shadow: 0px 10px 30px #BDA59A;
+   width: 600px;
+   padding: 30px;
+   margin-top: 20px;
+   margin: 60px auto;
+   text-align: center;
+   background-color: #BDA59A;
+   color: #FFE8D1;
+}
+
+
+
+
